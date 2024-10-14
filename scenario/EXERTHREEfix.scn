@@ -1,0 +1,20 @@
+EXERCISE THREE
+#Create a new aircraft
+00:00:00.00>CRE CTV001 A320 -7.0 107.0 180 FL240 250
+00:00:00.00>ECHO Aircraft CTV001 created at -7 S, 107 E, heading 180 degrees from the north, Altitude FL240, airspeed 250 kts
+00:00:00.00>TRAIL ON
+#Set new altitude, airspeed and heading for the aircraft
+00:01:00.00>ALT CTV001 FL280 3000
+00:01:00.00>HDG CTV001 270
+00:01:00.00>SPD CTV001 280
+00:01:00.00>ECHO Aircraft CTV001 redirected to altitude FL280, vertical speed 3000 ft/minute, heading to 270, airspeed 280 kts
+#Teleport  aircraft
+00:02:30.00>MOVE CTV001 -6 107.5
+00:02:30.00>ECHO Aircraft CTV001 teleported to -6 S, 107.5 E
+00:05:00.00>MOVE CTV001 CTV001 FL300
+00:05:00.00>ECHO Aircraft CTV001 teleported to FL300
+#Set new course for the aircraft
+00:10:00.00>ADDWPT CTV001 WIPP
+00:10:00.00>ECHO Aircraft CTV001 redirected to WIPP (Palembang-PLM)
+00:40:00.00>ADDWPT CTV001 WITT 
+00:40:00.00>ECHO Aircraft CTV001 redirected to WITT (Aceh-BTJ)

@@ -1,0 +1,22 @@
+#EXERCISE FOUR
+#Assignment BlueSky Scenario by Muhammad Fahmi Widiarto
+#July 26, 2024
+
+#Create a new aircraft
+00:00:00.00>CRE LNI001,B738,-8.0,108.0,270,FL270,320
+00:00:00.00>ECHO Aircraft LNI001 created at -8 S, 108 E, heading 270 degrees from the north. Altitude FL270, airspeed 320 kts
+#Set new heading, altitude, and airspeed for the aircraft
+00:01:00.00>HDG LNI001 300
+00:01:00.00>ALT LNI001 FL320 3000
+00:01:00.00>SPD 001 280
+00:01:00.00>ECHO Aircraft LNI001 redirected to 300 degrees from the north, altitude FL320, airspeed 280 kts, vertical speed 3000 ft/minute
+#Teleport new aircraft
+00:02:30.00>MOVE LNI001 -8 108.5
+00:02:30.00>ECHO Aircraft LNI001 teleported to -8 S, 108.5 E
+00:05:00.00>MOVE LNI001 LNI001 FL310
+00:05:00.00>ECHO Aircraft LNI001 teleported to FL310
+#Set new course for the aircraft
+00:10:00.00>ADDWPT LNI001 WAAA
+00:10:00.00>ECHO Aircraft LNI001 redirected to WAAA (Sultan Hasanuddin - Makasssar)
+02:30:00.00>ADDWPT LNI001 WATT
+02:30:00.00>ECHO Aircraft LNI001 redirected to WATT (El Tari - Kupang)

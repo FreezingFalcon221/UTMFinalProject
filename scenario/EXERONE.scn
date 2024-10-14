@@ -1,0 +1,18 @@
+#Exercise 1 Hanif Irza Prambudi
+#Create Aircraft (GIA001 Aircraft Type B738) & Set initial parameter
+00:00:00.00>CRE GIA001,B738,-6.0,106.0,360,30000,300
+#Create Aircraft Trail Line
+00:00:17.80>TRAIL ON
+#Alter The Aircraft Heading
+00:02:34.40>HDG GIA001 090
+#Alter The Aircraft Altitude
+00:02:57.19>ALT GIA001 FL150 -2000
+#Alter The Aircraft Speed
+00:03:06.05>SPD GIA001 250
+#Teleport To Specific Point
+00:03:31.65>MOVE GIA001 -5 106.5
+00:03:44.00>MOVE GIA001 GIA001 28000
+#Set Aircraft Waypoint to WAOO
+00:03:57.65>ADDWPT GIA001 WAOO
+#Set Aircraft Waypoint to WAAA
+01:14:56.85>ADDWPT GIA001 WAAA
